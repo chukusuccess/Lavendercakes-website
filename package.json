@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "name": "lavender-cakes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chukusuccess/Lavendercakes-website.git"
+  },
+  "author": "Chuku Success",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chukusuccess/Lavendercakes-website/issues"
+  },
+  "homepage": "https://github.com/chukusuccess/Lavendercakes-website#readme",
+  "description": ""
+}

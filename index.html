@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lavendercakes</title>
+  </head>
+
+  <body>
+    <header id="home">
+      <nav>
+        <div class="row">
+          <img src="img/logo-2.png" alt="lavendercakes logo" class="logo" />
+          <img
+            src="img/logo-2.png"
+            alt="lavendercakes logo"
+            class="logo-black"
+          />
+          <ul class="main-nav js--main-nav">
+            <li class="btn"><a href="#users">Users</a></li>
+            <li class="btn"><a href="#features">Why us?</a></li>
+            <li class="btn"><a href="#home">Home</a></li>
+          </ul>
+          <!-- <a class="mobile-nav-icon js--nav-icon"
+            ><i class="ion-navicon-round"></i
+          ></a> -->
+          <a class="mobile-nav-icon js--nav-icon">
+            <ion-icon name="reorder-three"></ion-icon>
+          </a>
+        </div>
+      </nav>
+
+      <div class="hero-text-box">
+        <h1>The richest cakes <br />money can buy.</h1>
+        <p class="support-hero-text">
+          <i><br />Rich in taste, Rich in feel, Rich in looks!</i>
+        </p>
+        <br />
+        <a class="btn btn-full" href="#order">Order now!</a>
+        <a class="btn btn-ghost" href="#mom">Meet the mom</a>
+      </div>
+    </header>
+
+    <section class="section-features js--section-features" id="features">
+      <div class="row">
+        <h2>Who are we?</h2>
+        <p class="long-copy">
+          We are Lavendercakes, we bake the finest cakes money can buy, and
+          promise to make you savour every bite of our cakes. Our motive is to
+          offer you the richest value for your money, stuffed to the crust in
+          all products of our bakery!
+        </p>
+      </div>
+    </section>
+    <section class="reasons">
+      <div class="row">
+        <h2>Why choose us?</h2>
+      </div>
+
+      <div class="row">
+        <div class="col span-1-of-3 box">
+          <ion-icon class="icon-big" name="card-outline"></ion-icon>
+          <h3>Guaranteed 100% refund</h3>
+          <p>
+            In the near impossible event that Lavendercakes fails to deliver an
+            accepted order, customers will be refunded whatever they paid, in
+            full.
+          </p>
+        </div>
+        <div class="col span-1-of-3 box">
+          <ion-icon class="icon-big" name="sparkles-outline"></ion-icon>
+          <h3>How we do it</h3>
+          <p>
+            Top notch hygiene, rich ingredients, highest quality equipment, and
+            professional hands. All to ensure our bakery satisfies our
+            customers.
+          </p>
+        </div>
+        <div class="col span-1-of-3 box">
+          <ion-icon class="icon-big" name="cart-outline"></ion-icon>
+          <h3>Fast secure delivery</h3>
+          <p>
+            Our designated dispatchers are quick to deliver your order directly
+            to your doorstep in the shortest possible time, with the most secure
+            packing right from our bakery.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cakes">
+      <div class="row">
+        <h2>View Our Gallery</h2>
+      </div>
+      <ul class="cake-showcase clearfix">
+        <li>
+          <figure class="cake-photo">
+            <img src="img/cake-19.jpg" alt="cake-1" />
+          </figure>
+        </li>
+        <li>
+          <figure class="cake-photo">
+            <img src="img/cake-3.jpg" />
+          </figure>
+        </li>
+        <li>
+          <figure class="cake-photo">
+            <img src="img/cake-21.jpg" alt="cake-3" />
+          </figure>
+        </li>
+        <li>
+          <figure class="cake-photo">
+            <img src="img/cake-5.jpg" alt="cake-4" />
+          </figure>
+        </li>
+      </ul>
+      <ul class="cake-showcase clearfix">
+        <li>
+          <figure class="cake-photo">
+            <img src="img/cake-9.jpg" alt="cake-5" />
+          </figure>
+        </li>
+        <li>
+          <figure class="cake-photo">
+            <img src="img/cake-6.jpg" alt="cake-6" />
+          </figure>
+        </li>
+        <li>
+          <figure class="cake-photo">
+            <img src="img/cake-14.jpg" alt="cake-7" />
+          </figure>
+        </li>
+        <li>
+          <figure class="cake-photo">
+            <img src="img/cake-1.jpg" alt="cake-8" />
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section-form" id="order">
+      <div class="row">
+        <h2>Order Now!!</h2>
+      </div>
+      <div class="row">
+        <form method="post" action="#" class="contact-form">
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Name</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="your name"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Email</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="your email"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Phone</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="your phone number"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Type</label>
+            </div>
+            <div class="col span-2-of-3">
+              <select name="type" id="type">
+                <option value="chocolate-cupcake" selected>
+                  Chocolate cupcake @ &#8358;6,000 per tray
+                </option>
+                <option value="Red-velvet-cupcake">
+                  Red velvet cupcake @ &#8358;11,000 per tray
+                </option>
+                <option value="chiffon-cupcake">
+                  chiffon cupcake @ &#8358;9,000 per tray
+                </option>
+                <option value="cheese">
+                  cheese cupcake @ &#8358;5,500 per tray
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Quantity</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input
+                type="text"
+                name="quantity"
+                id="quantity"
+                placeholder="number of cupcakes you are purchasing"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Pickup location</label>
+            </div>
+            <div class="col span-2-of-3">
+              <textarea
+                name="message"
+                placeholder="please specify your pickup lcation"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Save my order?</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="checkbox" name="save-my-order" id="save" checked />
+              Yes, please.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="submit" value="pay now!" />
+            </div>
+          </div>
+          <div class="row call-to-order">
+            <h3>Call to order?</h3>
+            <p>
+              Want a custom cake for your wedding/birthday? Talk to our
+              <i>mompreneur</i> directly!
+            </p>
+            <p>
+              <ion-icon name="call-outline"></ion-icon>Tel: +23480xxxxxxx
+              <br /><ion-icon name="logo-whatsapp"></ion-icon> WhatsApp:
+              +23480xxxxxxx
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section-testimonials" id="users">
+      <div class="row">
+        <h2>What our customers say</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <blockquote>
+            Compared to prices elsewhere, Lavendercakes give me the best value
+            for my money. I would recommend Lavendercakes over again!
+            <cite><img src="img/users/user-16.png" />Homa</cite>
+          </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+          <blockquote>
+            Been using lavendercakes for my kids’ birthdays and they never
+            disappoint.
+            <cite><img src="img/users/user-4.jpg" />Jugu</cite>
+          </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+          <blockquote>
+            Your cupcakes have become my comfort food, thanks for existing, I
+            love you so much.
+            <cite><img src="img/users/user-13.jpg" />Jammie</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="comingsoon">
+      <div class="row">
+        <h2>Coming soon</h2>
+      </div>
+
+      <div class="row">
+        <div class="col span-1-of-3 box">
+          <h3>Partfaits</h3>
+          <figure class="soon-photo">
+            <img src="img/parfait-2.jpg" />
+          </figure>
+        </div>
+        <div class="col span-1-of-3 box">
+          <h3>Fruit salads</h3>
+          <figure class="soon-photo">
+            <img src="img/fruit-3.jpg" />
+          </figure>
+        </div>
+        <div class="col span-1-of-3 box">
+          <h3>Breads</h3>
+          <figure class="soon-photo">
+            <img src="img/bread-1.jpg" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="mompreneur" id="mom">
+      <div class="row">
+        <h2>Meet the mompreneur</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2 box">
+          <h3>she means business</h3>
+          <figure class="mom-photo">
+            <img src="img/meet-the-owner.jpg" />
+          </figure>
+        </div>
+        <div class="col span-1-of-2 box mom-quote">
+          <p class="momtext">
+            To all the entrepreneurs and go-getters out there;<br />
+            Everyone must work, but for many of us that job isn't just a
+            paycheck.<br />It's an opportunity to express ourselves and make
+            something better.<br />
+            Don't be lax, don't be idle, don't sit and feel as if you carry the
+            weight of a mountain on your back.<br />Go, and make the best out of
+            your passion!
+          </p>
+          <h3 class="mom-header"><br />Mrs chizi reginald opara-martins</h3>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="col span-1of-2">
+          <ul class="footer-nav">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Catering</a></li>
+            <li><a href="#">ios App</a></li>
+            <li><a href="#">Android App</a></li>
+          </ul>
+        </div>
+        <div class="col span-1of-2">
+          <ul class="social-links">
+            <li>
+              <a href="#"
+                ><ion-icon class="facebook-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="twitter-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="google-icon" name="logo-google"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon
+                  class="instagram-icon"
+                  name="logo-instagram"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <p>Copyright &copy; 2021 by Chuku Success.</p>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
